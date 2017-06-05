@@ -5,7 +5,6 @@
 var givenName;
 // A: Nothing, all I see is that its been declared.
 
-
 // 2.
 // What is `givenName` set to right now?
 givenName = "Tim";
@@ -44,15 +43,15 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 var born = 1984;
 var today = 2017;
-var math = today - born;
 // A:
+var math = today - born;
 
 
 // 8.
 // Adjust this code. Store some information in the following variables.
 // A:
-var yourName = Zach;
-var instructorName = Edwin;
+var yourName = "Zach";
+var instructorName = "Edwin";
 
 
 // 9.
@@ -79,47 +78,47 @@ var myUndefined = "";
 
 // 11.
 var x = (false == 0);
-// A. false
+// A. true
 
 
 // 12.
 var y = (false == "");
-// A. false
+// A. true
 
 
 // 13.
 var z = (0 == "");
-// A. 0
+// A. true
 
 
 // 14.
 var a = (null == null);
-// A. undefined
+// A. true
 
 
 // 25.
 var b = (undefined == undefined);
-// A. undefined
+// A. true
 
 
 // 16.
 var c = (undefined == null);
-// A. undefined
+// A. true
 
 
 // 17.
 var d = (null == false);
-// A. undefined
+// A. false
 
 
 // 18.
 var e = (NaN == null);
-// A. undefined
+// A. false
 
 
 // 19.
 var f = (NaN == NaN);
-// A. undefined
+// A. false
 
 
 // 20.
@@ -130,7 +129,7 @@ var thirsty = true;
 
   if (thirsty){
   console.log("I'm parched!");
-} else if{
+} else {
   console.log("I've had enough to drink.");
 }
 
@@ -219,7 +218,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:
+// A: true
 
 
 // 30.
